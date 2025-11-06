@@ -1,0 +1,13 @@
+[project]
+name = "dcc-app"
+version = "0.1.0"
+description = "Dungeon Crawl Classics inspired console game with AI campaigns"
+requires-python = ">=3.10"
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
